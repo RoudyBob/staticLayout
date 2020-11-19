@@ -49,128 +49,7 @@ nav a {
 
 }
 
-.freeTrial {
-    height: 56px;
-    min-width: 136px;
-    border-radius: 4px;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #040505;
-    background: #fff;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 1px;
-    padding: 0px 32px 0px 32px;
-    margin: auto;
-    display: block;   
-    border: none;
-}
-
-.mastheadFooter {
-    background-image: linear-gradient(318.68deg, rgb(15, 73, 92) 0%, rgb(13, 54, 64) 49.72%, rgb(8, 20, 31) 100%);
-    display: flex;
-    margin: auto;
-    min-height:150px;
-    max-height:150px;
-}
-
-.logoDiv {
-    width: 20%;
-    padding: 35px 40px 35px 40px;
-}
-
-.bundleLogo {
-    max-width: 335px;
-}
-
-.offerDiv {
-    width: 65%;
-    padding: 15px 30px 15px 30px;
-}
-
-.offerDiv h4 {
-    color: #2DBD9D;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    line-height: 13px;
-    padding-bottom: 8px;
-    margin: auto;
-    padding: 18px 10px 10px 10px;
-}
-
-.offerDiv h2 {
-    color: white;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    margin: auto;
-    padding: 0px 10px 10px 10px;
-}
-
-.offerDiv a {
-    margin: auto;
-    padding: 0px 0px 0px 10px;
-    color: #fff;
-    opacity: 0.7;
-    text-decoration: underline;
-    font-size: 14px;
-    line-height: 15px;
-}
-
-
-.offerButtonDiv {
-    width: 15%;
-    margin: auto;
-    padding: 30px 30px 15px 30px;
-    text-align: center;
-}
-
-.offerButton {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 32px;
-    color: #FFFFFF;
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    text-transform: uppercase;
-    white-space: nowrap;
-    border-radius: 4px;
-    cursor: pointer;
-    height: 56px;
-    min-width: 136px;
-    padding: 0 32px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 1px;
-}
-
-.offerButtonDiv a {
-    color: #fff;
-    opacity: 0.7;
-    text-decoration: underline;
-    font-size: 10px;
-    cursor: pointer;
-    line-height: 10%;
-
-}
-
-.masthead img {
-    height: 100%;
-}
-
-.huluLogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-}
-
+/* These stylize the H1, H4, H2, H5 tags in the masthead container. */
 .mastheadContainer h1 {
     height: 80px;
 }
@@ -211,6 +90,129 @@ nav a {
     font-weight: normal;
 }
 
+/* Style for the free trial button in the middle of masthead. */
+.freeTrial {
+    display: block;   
+    margin: auto;
+    padding: 0px 32px 0px 32px;
+    height: 56px;
+    min-width: 136px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #040505;
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+/* This is the banner below the main text of the masthead. */
+.mastheadFooter {
+    background-image: linear-gradient(318.68deg, rgb(15, 73, 92) 0%, rgb(13, 54, 64) 49.72%, rgb(8, 20, 31) 100%);
+    display: flex;
+    margin: auto;
+    min-height:150px;
+    max-height:150px;
+}
+
+/* This DIV holds the logo in the banner below the masthead. */
+.logoDiv {
+    width: 20%;
+    padding: 35px 40px 35px 40px;
+}
+
+/* Style for the class assigned to the logo in the banner below the masthead. */
+.bundleLogo {
+    max-width: 335px;
+}
+
+/* This DIV is in the banner below the masthead and contains the text in the middle. */
+.offerDiv {
+    width: 65%;
+    padding: 15px 30px 15px 30px;
+}
+
+/* These classes are for the H4, H2, A elements within the masthead. */
+.offerDiv h4 {
+    margin: auto;
+    padding: 18px 10px 10px 10px;
+    color: #2DBD9D;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+}
+
+.offerDiv h2 {
+    margin: auto;
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0px 10px 10px 10px;
+}
+
+.offerDiv a {
+    margin: auto;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+/* These DIVs/Classes are for the offer button in the banner. */
+.offerButtonDiv {
+    width: 15%;
+    margin: auto;
+    padding: 30px 30px 15px 30px;
+    text-align: center;
+}
+
+.offerButton {
+    padding: 0 32px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 56px;
+    min-width: 136px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.offerButtonDiv a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 10%;
+}
+
+/* This is for the hulu logo in the masthead. */
+.huluLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* This is a container created for the content graphic at the bottom. */
 .showsContainer {
     width: 100%;
     text-align: center;
@@ -222,6 +224,10 @@ nav a {
     width: 100%;
 }
 
+/* The plans listed at the bottom of the site are nexted in a series
+of containers and arranged using flex. */
+
+/* Outermost Container */
 .plansContainer {
     background-color: white;
     text-align: center;
@@ -230,14 +236,16 @@ nav a {
     color: #292C33;
     position: relative;
     display: block;
-    top: -7px;
-
+    min-height: 300px;
 }
 
 .plansHeader {
     display: flex;
     flex-direction: row;
 }
+
+/* This section is for the column containing the leftmost
+items - plan description */
 
 .plansColumn1 {
     text-align: left;
@@ -280,9 +288,24 @@ nav a {
     font-weight: 900;
 }
 
-.plan1 {
+/* This section is for the 3 plans that are columns nested within
+container and arranged via glex. plansColumn2 is the parent container
+for all of the plan containers. */
+.plansColumn2 {
     border-right: none;
-    padding-bottom: 0;
+    text-align: center;
+    display: flex;
+    background-color: #F7F8FA;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+.plan1 {
     padding-top: 30px;
     padding-bottom: 8px;
     border-top: none;
@@ -299,9 +322,6 @@ nav a {
 }
 
 .plan2 {
-    border-right: none;
-    background-color: #F7F8FA;
-    padding-bottom: 0;
     padding-top: 55px;
     border-top: none;
     height: 215px;
@@ -317,7 +337,6 @@ nav a {
 }
 
 .plan3 {
-    padding-bottom: 0;
     padding-top: 55px;
     border-top: none;
     height: 215px;
@@ -344,19 +363,6 @@ nav a {
     letter-spacing: 0.42px;
     background-color: #67728A;
     text-transform: uppercase;
-}
-
-.plansColumn2 {
-    text-align: center;
-    display: flex;
-    padding: 0;
-    top: 0;
-    box-sizing: border-box;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%;
 }
 
 .plansColumn2 h2 {
