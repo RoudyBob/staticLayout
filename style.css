@@ -1,0 +1,400 @@
+/* Properties Common to Entire Page */
+html, body {
+    background-color: white ;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+/* Upper Half of Page Wrapped in Masthead */
+.masthead {    
+    margin: auto;
+    /* Display background image once, covering the entire parent DIV and anchoring to bottom right of the DIV */
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    min-height: 660px;
+    max-height: 100vh;
+    position: relative;
+}
+/* Nav Bar within Masthead */
+nav { 
+    text-align: right;
+    padding: 30px 40px 30px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/* This DIV contains the masthead of page including offer ribbon. */
+.mastheadContainer {
+    padding: 40px 40px 40px 40px;
+    width: 770px;
+    margin: auto;
+    max-width: 1600px;
+
+}
+
+.freeTrial {
+    height: 56px;
+    min-width: 136px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #040505;
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 0px 32px 0px 32px;
+    margin: auto;
+    display: block;   
+    border: none;
+}
+
+.mastheadFooter {
+    background-image: linear-gradient(318.68deg, rgb(15, 73, 92) 0%, rgb(13, 54, 64) 49.72%, rgb(8, 20, 31) 100%);
+    display: flex;
+    margin: auto;
+    min-height:150px;
+    max-height:150px;
+}
+
+.logoDiv {
+    width: 20%;
+    padding: 35px 40px 35px 40px;
+}
+
+.bundleLogo {
+    max-width: 335px;
+}
+
+.offerDiv {
+    width: 65%;
+    padding: 15px 30px 15px 30px;
+}
+
+.offerDiv h4 {
+    color: #2DBD9D;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    margin: auto;
+    padding: 18px 10px 10px 10px;
+}
+
+.offerDiv h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin: auto;
+    padding: 0px 10px 10px 10px;
+}
+
+.offerDiv a {
+    margin: auto;
+    padding: 0px 0px 0px 10px;
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+.offerButtonDiv {
+    width: 15%;
+    margin: auto;
+    padding: 30px 30px 15px 30px;
+    text-align: center;
+}
+
+.offerButton {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 56px;
+    min-width: 136px;
+    padding: 0 32px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.offerButtonDiv a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: underline;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 10%;
+
+}
+
+.masthead img {
+    height: 100%;
+}
+
+.huluLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.mastheadContainer h1 {
+    height: 80px;
+}
+
+.mastheadContainer h4 {
+    text-align: center;
+    color: #2DBD9D;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px
+}
+
+.mastheadContainer h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0.5em;
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.mastheadContainer h3 {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mastheadContainer h5 {
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    opacity: .6;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.showsContainer {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.showsContainer img {
+    width: 100%;
+}
+
+.plansContainer {
+    background-color: white;
+    text-align: center;
+    max-width: 976px;
+    margin: 0 auto;
+    color: #292C33;
+    position: relative;
+    display: block;
+    top: -7px;
+
+}
+
+.plansHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.plansColumn1 {
+    text-align: left;
+    display: block;
+    height: 215px;
+    padding: 72px 0 10px;
+    border-bottom: 1px solid #EDEFF2;
+    top: 0px;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.66667%;
+    max-width: 41.66667%;
+}
+
+.plansColumn1 h3 {
+    letter-spacing: -0.5px;
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 12px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.planDescription {
+    max-width: 30vw;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-top: 20px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.planDescription span {
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.plan1 {
+    border-right: none;
+    padding-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    border-top: none;
+    height: 215px;
+    border-bottom: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.plan2 {
+    border-right: none;
+    background-color: #F7F8FA;
+    padding-bottom: 0;
+    padding-top: 55px;
+    border-top: none;
+    height: 215px;
+    border-bottom: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.plan3 {
+    padding-bottom: 0;
+    padding-top: 55px;
+    border-top: none;
+    height: 215px;
+    border-bottom: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.plan1 span {
+    background-color: grey;
+    color: white;
+    font-size: 11px;
+    padding: 7px 18px 5px;
+    border-radius: 15px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    background-color: #67728A;
+    text-transform: uppercase;
+}
+
+.plansColumn2 {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+
+.plansColumn2 h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 31px;
+    padding: 8px 0;
+    color: #292C33;
+    margin: auto;
+}
+
+.plansColumn2 h4 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    color: #888;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.plansColumn2 button {
+    height: 48px;
+    padding: 0 28px;
+    width: 100%;
+    max-width: 344px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background: #040505;
+    min-width: 136px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+}
