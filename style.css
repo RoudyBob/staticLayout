@@ -118,7 +118,7 @@ nav a {
     cursor: pointer;
     text-transform: uppercase;
     color: #040505;
-    background: #fff;
+    background: white;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -178,7 +178,7 @@ nav a {
 .offerDiv a {
     margin: auto;
     padding: 0px 0px 0px 10px;
-    color: #fff;
+    color: white;
     opacity: 0.7;
     text-decoration: underline;
     font-size: 14px;
@@ -195,9 +195,9 @@ nav a {
 
 .offerButton {
     padding: 0 32px;
-    color: #FFFFFF;
+    color: white;
     background: transparent;
-    border: 2px solid #FFFFFF;
+    border: 2px solid white;
     text-transform: uppercase;
     white-space: nowrap;
     border-radius: 4px;
@@ -212,7 +212,7 @@ nav a {
 }
 
 .offerButtonDiv a {
-    color: #fff;
+    color: white;
     opacity: 0.7;
     text-decoration: underline;
     font-size: 10px;
@@ -313,7 +313,7 @@ for all of the plan containers. */
     border-right: none;
     text-align: center;
     display: flex;
-    background-color: #FFFFFF;
+    background-color: white;
     padding: 0;
     top: 0;
     box-sizing: border-box;
@@ -397,7 +397,7 @@ for all of the plan containers. */
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 4px;
-    color: #888;
+    color: gray;
     line-height: 13px;
     text-transform: uppercase;
     margin: auto;
@@ -417,7 +417,7 @@ for all of the plan containers. */
     white-space: nowrap;
     border-radius: 4px;
     cursor: pointer;
-    color: #fff;
+    color: white;
     background: #040505;
     min-width: 136px;
     border: none;
